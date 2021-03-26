@@ -6,7 +6,6 @@ public class ArrayInsertion{
   private static int value;
 
   public static void main(String[] args) {
-
     //ARRAY VALUE ASSIGNMENT
     for(int index = 0; index < Num_Array.length - 1; index++){
       Num_Array[index] = index*2;
@@ -16,7 +15,7 @@ public class ArrayInsertion{
     for(int index = 0; index < Num_Array.length - 1; index++){
       System.out.println("Element[" + index + "] : " + Num_Array[index]);
     }
-    //ARRAY ELEMENT INPUT AND ASSIGNMENT
+    //ARRAY INSERTED ELEMENT INPUT AND ASSIGNMENT
     System.out.println("Enter element value: ");
     value = scan.nextInt();
     Num_Array[Num_Array.length - 1] = value;
@@ -26,6 +25,5 @@ public class ArrayInsertion{
     for(int index = 0; index < Num_Array.length; index++){
       System.out.println("Element[" + index + "] : " + Num_Array[index]);
     }
-
   }
 }
