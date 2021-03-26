@@ -23,7 +23,7 @@ public class ElementS{
     value = scan.nextInt();
 
 
-    //ARRAY ELEMENTS EXISTANCE DETERMINATION
+    //ARRAY ELEMENT'S EXISTANCE DETERMINATION
     for(int index = 0; index < Num_Array.length - 1; index++){
       if(value == Num_Array[index]){
         System.out.println("Element Found in Index : " + index);
