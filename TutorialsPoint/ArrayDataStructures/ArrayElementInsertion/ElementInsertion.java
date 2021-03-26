@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class ArrayInsertion{
+public class ElementInsertion{
   // ALL VARIABLES
   private static int[] Num_Array = new int[10];
   private static Scanner scan = new Scanner(System.in);
