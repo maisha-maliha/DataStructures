@@ -4,6 +4,7 @@ public class ElementDeletion{
   private static int[] Num_Array = new int[10];
   private static Scanner scan = new Scanner(System.in);
   private static int index_value = 0;
+  //public int vari = 55;
 
   public static void main(String[] args) {
     //ARRAY VALUE ASSIGNMENT
