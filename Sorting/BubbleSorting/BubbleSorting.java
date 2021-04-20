@@ -8,9 +8,11 @@ public class BubbleSorting{
       System.out.print(value +" ");
     }
     System.out.println();
+
     System.out.println("Array Elements After Bubble Sort: ");
     boolean continue_loop = true;
-    int temp_value =0 ;
+    int temp_value = 0 ;
+    
     while(continue_loop){
       continue_loop = false;
       for(int index = 1; index < array_length; index++){
